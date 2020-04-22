@@ -1,6 +1,12 @@
 # Inspiration Fetcher
 
 Uses Puppeteer to go through a long list of urls and take screenshots of them.
+```
+git clone https://github.com/andeersg/inspiration-fetcher inspiration
+cd inspiration
+npm install
+npm start
+```
 
 Use these options to change behaviour:
 
@@ -8,6 +14,10 @@ Use these options to change behaviour:
 * --random (Shuffle the list, nice if you also use limit)
 * --width [number] (Viewport width when taking screenshots)
 * --height [number] (Viewport height when taking screenshots)
+
+```
+npm start -- --limit 50 --random
+```
 
 ## Generate a slide show video
 
