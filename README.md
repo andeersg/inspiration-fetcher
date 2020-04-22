@@ -19,6 +19,11 @@ Use these options to change behaviour:
 npm start -- --limit 50 --random
 ```
 
+## Sources
+Currently I fetch urls from these sources:
+* https://personalsit.es/
+* https://www.11ty.dev/leaderboard/
+
 ## Generate a slide show video
 
 If you have ffmpeg installed you can use this to generate a video:
