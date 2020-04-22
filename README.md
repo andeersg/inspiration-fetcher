@@ -2,6 +2,13 @@
 
 Uses Puppeteer to go through a long list of urls and take screenshots of them.
 
+Use these options to change behaviour:
+
+* --limit [number] (How many urls to take screenshot of)
+* --random (Shuffle the list, nice if you also use limit)
+* --width [number] (Viewport width when taking screenshots)
+* --height [number] (Viewport height when taking screenshots)
+
 ## Generate a slide show video
 
 If you have ffmpeg installed you can use this to generate a video:
